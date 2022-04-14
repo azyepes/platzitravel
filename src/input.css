@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl cursor-pointer
+}
+
+.trending_card {
+    @apply w-full h-96 my-6 py-6 bg-cover bg-no-repeat rounded-2xl lg:my-0
+}
+
+.title {
+    @apply text-primary text-3xl font-semibold dark:text-white
+}
+
+.nav_text_style {
+    @apply text-primary font-bold dark:text-white
+}
+
+.faq_titles { 
+    @apply text-primary font-semibold text-xl pt-3 dark:text-white
+}
+
+.faq_p {
+    @apply font-medium text-base pt-2 dark:text-white
+}
